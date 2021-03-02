@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <title>Survey Form</title>
+     <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <header>
+            <h1 >freeCodeCamp Survey Form</h1>
+            <p>Thank you for taking the time to help us improuve the platform</p>
+        </header>
+        <section id="form" style="background-color: rgba(27,27,50,0.8)">
+            <div id="overlay" >
+                <form>
+                    <label class="text" for="Name">Name</label>
+                    <input id="Name" type="text" placeholder="Enter your name" required>
+                    <label class="text" for="Email">Email</label>
+                    <input id="Email" type="text" placeholder="Enter your Email" required>
+                    <label class="text" for="Age">Age (optional)</label>
+                    <input id="Age" type= "number" min="10" max="99" placeholder="Age">
+                    
+                   <p>Which option best describes your current role?</p>
+                    <select  name="Profession" id="Profession" onchange="" required> 
+                     <option disabled selected>Select your current role </option>
+                      <option id="dropdown" value="Student">Student</option>
+                       <option id="dropdown" value="Full Time Job">Full Time Job</option>
+                        <option id="dropdown" value="Full Time Learner">Full Time Learner</option>
+                       <option id="dropdown" value="Prefeer not to say">Prefeer not to say</option>
+                        <option id="dropdown" value="Other">Other</option>
+                    </select>
+                
+                    
+                    <p>Would you recommend freeCodeCamp to a friend?</p>
+                   <div id="radio"> 
+                       <input id="Recommandation1" type= "radio" value="Definitly" name="Share" checked >
+                          <label for="Recommandation1">Definetly</label>
+                    <br>
+                       <input id="Recommandation2" type= "radio" value="Maybe" name="Share" >
+                          <label for="Recommandation2">Maybe</label>
+                    <br>
+                       <input id="Recommandation3" type= "radio" value="Not-sure" name="Share">
+                          <label for="Recommandation3">Not sure</label>
+                    </div>
+                    
+                    <p>What is your favorite feature of freeCodeCamp?</p>
+                    <select name="feature" id="feature" required>
+                        <option disabled selected>Select an option</option>
+                        <option>Challenges</option>
+                        <option>Projects</option>
+                        <option>Community</option>
+                        <option>Open Source</option>
+                    </select>
+                    
+                <p>What would you like to see improved? (Check all that apply)</p>
+                <div id="checkbox">
+                    <input id="improvement" type="checkbox" value="front-end">
+                        <label for="improvement">Front-end Projects</label>
+                    <br>
+                    <input id="improvement2" type="checkbox" value=" Back-end"> 
+                       <label for="improvement2">Back-end Projects</label>
+                    <br>
+                    <input id="improvement3" type="checkbox" value="Data-Visualization">
+                       <label for="improvement3">Data Visualization</label>
+                    <br>
+                    <input id="improvement4" type="checkbox" value="Challenges">
+                       <label for="improvement4">Chanllenges</label>
+                    <br>
+                    <input id="improvement5" type="checkbox" value="Open-source">
+                       <label for="improvement5">Open Source Community</label>
+                    <br>
+                    <input id="improvement6" type="checkbox" value="Gitter-help">
+                       <label for="improvement6">Gitter help rooms</label>
+                    <br>
+                    <input id="improvement7" type="checkbox" value="Videos">
+                       <label for="improvement7">Videos</label>
+                    <br>
+                    <input id="improvement8" type="checkbox" value="City-Meetups">
+                       <label for="improvement8">City Meetups</label>
+                    <br>
+                    <input id="improvement9" type="checkbox" value="Wiki">
+                       <label for="improvement9">Wiki</label>
+                    <br>
+                    <input id="improvement10" type="checkbox" value="Forum">
+                       <label for="improvement10">Forum</label>
+                    <br>
+                    <input id="improvement11" type="checkbox" value="Additional-courses">
+                      <label for="improvement11">Additonal Courses</label>
+                             </div>
+                   <p>Any comments or suggestions?</p>
+                    <textarea placeholder="Enter your comment here..." cols="69" rows="5" ></textarea>
+                    <input type="submit">
+                </form>
+            </div>
+        </section>
+    </body>
+    
+</html>

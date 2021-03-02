@@ -1,0 +1,104 @@
+/*GENERAL*/
+body{
+    margin: 0px;
+    padding: 0px;
+   background-color: #8580BF;
+    font-family: 'Manjari Regular';
+}
+
+/*HEADER*/
+
+header{
+   height: 100px;
+   min-width: 25%;
+   text-align: center;
+    margin: 0px 50px 5px 50px;
+}
+header h1{
+    font-size: 35px;
+    font-family: 'Arial';
+    font-weight: normal;
+    color: white;
+    margin-bottom: 10px;
+}
+header P{
+    font-style: italic;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+/*FORM*/
+
+#form{
+    margin: 0px 340px;
+    border-radius: 0.25rem;
+     padding: 40px;
+}
+.text{
+    display: block;
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 10px;
+}
+#form p, label{
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 10px;
+}
+input[type="text"]:focus,input[type="number"]:focus,select:focus{
+   box-shadow: 0 0 0 3px #02b8dd;
+    outline-style: none;
+}
+input[type="text"],input[type="number"],select{
+    box-sizing: border-box;
+    width: 590px;
+    height: 40px;
+}
+input[type="text"],input[type="number"]{
+    color: #777;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid white;
+    margin-bottom: 25px;
+}
+input[type="checkbox"]{
+    margin-right: 15px;
+    margin-bottom: 15px;
+    transform: scale(1.5);
+}
+select{
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 4px ;
+    margin-bottom: 20px;
+    background-color: white;
+    color: #777;
+}
+input[type="radio"]{
+    margin-right: 15px;
+    margin-bottom: 15px;
+    transform: scale(1.5);
+}
+textarea{
+    padding: 10px;
+    font-family: 'MManjari Regular';
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    margin-top: 15px;
+    background-color: #28B463;
+    border: none;
+    border-radius: 0.25rem;
+    height: 50px;
+    font-size: 20px;
+    width: 590px;
+    color: white;
+}
